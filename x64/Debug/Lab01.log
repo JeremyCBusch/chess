@@ -1,0 +1,111 @@
+﻿  bishop.cpp
+  board.cpp
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1,8): error C2146: syntax error: missing ';' before identifier 'piece'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,1): error C2086: 'int import': redefinition
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1): message : see declaration of 'import'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,8): error C2146: syntax error: missing ';' before identifier 'Position'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,8): error C3646: 'board': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,13): error C2143: syntax error: missing ',' before '['
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,17): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(11,11): error C3646: 'ogstream': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(11,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(14,13): error C2061: syntax error: identifier 'gout'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(14,25): error C2533: 'Board': constructors not allowed a return type
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(17,15): error C2061: syntax error: identifier 'posHover'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,8): error C3646: 'get': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,11): error C2059: syntax error: '('
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,25): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(21,12): error C2061: syntax error: identifier 'Move'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(22,14): error C2061: syntax error: identifier 'Piece'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(23,12): error C2061: syntax error: identifier 'Position'
+  chess.cpp
+  king.cpp
+  knight.cpp
+  move.cpp
+  pawn.cpp
+  piece.cpp
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,11): error C3646: 'position': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(11,8): error C2061: syntax error: identifier 'c'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12,14): error C2061: syntax error: identifier 'Position'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,14): error C2061: syntax error: identifier 'piece'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,27): error C2535: 'void Piece::assign(void)': member function already defined or declared
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12): message : see declaration of 'Piece::assign'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,11): error C3646: 'getPosition': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,22): error C2059: syntax error: '('
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,24): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(19,23): error C2061: syntax error: identifier 'gout'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(20,24): error C2061: syntax error: identifier 'board'
+  position.cpp
+  queen.cpp
+  rook.cpp
+  space.cpp
+  testPiece.cpp
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,11): error C3646: 'position': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(11,8): error C2061: syntax error: identifier 'c'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12,14): error C2061: syntax error: identifier 'Position'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,14): error C2061: syntax error: identifier 'piece'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,27): error C2535: 'void Piece::assign(void)': member function already defined or declared
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12): message : see declaration of 'Piece::assign'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,11): error C3646: 'getPosition': unknown override specifier
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,22): error C2059: syntax error: '('
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,24): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(19,23): error C2061: syntax error: identifier 'gout'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(20,24): error C2061: syntax error: identifier 'board'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(16,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(18,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(20,15): error C2039: 'getPosition': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(20,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(25,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(27,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(29,15): error C2039: 'getPosition': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(29,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(34,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(36,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(38,15): error C2039: 'getPosition': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(38,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(45,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(47,1): error C2661: 'Queen::Queen': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(48,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(50,15): error C2039: 'getLetter': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(50,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(55,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(57,16): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(58,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(60,15): error C2039: 'getLetter': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(60,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(65,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(66,1): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(68,8): error C2039: 'assign': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(70,15): error C2039: 'getLetter': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(70,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(75,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(77,23): error C2039: 'isWhite': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(79,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(84,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(86,23): error C2039: 'isWhite': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(88,3): error C3861: 'assert': identifier not found
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(94,15): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(96,23): error C2039: 'isWhite': is not a member of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
+C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(98,3): error C3861: 'assert': identifier not found
+  uiDraw.cpp
+  uiInteract.cpp
+  Generating Code...
