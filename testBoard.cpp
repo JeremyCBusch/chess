@@ -12,6 +12,15 @@ class testBoard
     void run()
     {
         test_current_move();
+        test_white_turn();
+        test_black_turn();
+        test_piece_black_knight_at_position();
+        test_piece_white_knight_at_position();
+        test_free();
+        test_move_black_pawn_e2e3();
+        test_move_black_rook_a1_a3();
+        test_swap_empty();
+        
     }
     
     void test_current_move()
@@ -111,21 +120,36 @@ class testBoard
         
     }
     
-    void test_move_pawn()
+    void test_move_black_pawn_e2e3()
+    {
+        // SETUP
+        Board b;
+        Move m;
+
+        // EXERCISE
+        //e2e3
+        b.move(m);
+        
+        // VERIFY
+        assert(b.board[20].getLetter() == 'p');
+    
+        
+    }
+    
+    void test_move_black_rook_a1_a3()
     {
         // SETUP
         Board b;
         Move m;
         
         // EXERCISE
+        b.move(m);
         
-        // TODO
+        // VERIFY
+        assert(b.board[24].getLetter() == 'r');
         
-    }
-    
-    void test_move_rook()
-    {
-        // TODO
+        
+        // TEARDOWN
     }
     
     void  test_swap_empty()
@@ -139,7 +163,7 @@ class testBoard
         b.swap(p1,p2);
         
         // VERIFY
-        
+        assert(p1.getLocation() == p2.getLocation() && p2.getLocation() == p1.getLocation());
         // TEARDOWN
         
         
