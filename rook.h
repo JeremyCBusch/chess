@@ -1,5 +1,9 @@
 #pragma once
-class Rook
+class Rook : public Piece
 {
+public:
+   char getLetter();
+   void display(ogstream gout);
+   Move getMoves(Board board);
 };
 

@@ -9,16 +9,16 @@ class Board
     
 private:
 	//member variables
-
-    // Which Move I am currently On
-
+	int currentMove; // Which Move I am currently On
+	Piece board[64];
 	ogstream gout;
 
-    void assertBoard();
+   void assertBoard();
+
 public:
-    Piece board[64];
-    Board();
-    Board(ogstream gout);
+   Piece board[64];
+   Board();
+   Board(ogstream gout);
 	int getCurrentMove();
 	bool whiteTurn();
 	void display(int posHover, int posSel);
@@ -27,7 +27,7 @@ public:
 	void reset();
 	void move(Move move);
 	void assign(Piece piece);
-    void swap(Position pos1, Position pos2);
-    int currentMove;
+   void swap(Position pos1, Position pos2);
+    
 };
 

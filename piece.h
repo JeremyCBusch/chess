@@ -12,14 +12,14 @@ protected:
 	int lastMove;
 
 public:
+	Piece();
 	Piece(int c, int r, bool white);
 	void assign(Position pos);
-	void assign(Piece piece );
 	bool isWhite();
-    bool isMoved();
+	int getLastMove();
 	int getNMoves();
 	Position getPosition();
-	bool justMoved();
+	bool checkIfJustMoved(Board board);
 	virtual char getLetter();
 	virtual void display(ogstream gout);
 	virtual void getMoves(Board board);
