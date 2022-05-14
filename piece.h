@@ -20,9 +20,9 @@ public:
 	int getNMoves();
 	Position getPosition();
 	bool checkIfJustMoved(Board board);
-	virtual char getLetter();
-	virtual void display(ogstream gout);
-	virtual void getMoves(Board board);
+	virtual char getLetter() = 0;
+	virtual void display(ogstream gout) = 0;
+	virtual void getMoves(Board board) = 0;
 
 	
 };
