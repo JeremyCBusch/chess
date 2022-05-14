@@ -1,21 +1,19 @@
 
-   
 #include "piece.h"
+#include "board.h"
+#include <set>
+#include <fstream>        // for IFSTREAM
+#include <string>         // for STRING
+using namespace std;
 
 #pragma once
-
-class Pawn: public Piece
+class Pawn : public Piece
 {
 public:
-    char letter;
-    Pawn(int r, int c, bool b): Piece{r,c,b} {
-        setLetter();
-    };
-    Pawn(){
-        setLetter();
-    };
-    char getLetter();
-    void setLetter();
-//   void display(ogstream gout);
-//   Move getMoves(Board board);
+   Pawn(int r, int c, bool b) : Piece{ r,c,b } { };
+
+   char getLetter();
+   void display(ogstream gout);
+   set <int> getMoves(const char* board);
 };
+

@@ -11,10 +11,9 @@
 class Space : public Piece
 {
 public:
-    char letter;
     Space(): letter(' '){};
     Space(int row, int col, bool b): Piece(row, col, b),letter(' '){};
-   char getLetter();
+    char getLetter();
     void setLetter();
 //   void display(ogstream gout);
 //   Move getMoves(Board board);

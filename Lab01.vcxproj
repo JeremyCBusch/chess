@@ -110,7 +110,6 @@
     <ClCompile Include="queen.cpp" />
     <ClCompile Include="rook.cpp" />
     <ClCompile Include="space.cpp" />
-    <ClCompile Include="testPiece.cpp" />
     <ClCompile Include="uiDraw.cpp" />
     <ClCompile Include="uiInteract.cpp" />
   </ItemGroup>

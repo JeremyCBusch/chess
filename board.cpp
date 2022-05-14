@@ -67,7 +67,7 @@ void Board::reset()
 	for (int i = 8; i < 16; i++)
 	{
 		Pawn pawn = new Pawn(0, i, false);
-		board[i] = pawn
+		board[i] = pawn;
 	}
 	//white
 	for (int i = 48; i < 56; i++)

@@ -1,6 +1,7 @@
 #include "position.h"
 #include "uiDraw.h"
-#include <set>    
+#include <set> 
+#include "board.h"
 
 #pragma once
 class Piece

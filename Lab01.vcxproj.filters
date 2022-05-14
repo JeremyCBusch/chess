@@ -16,9 +16,6 @@
     <Filter Include="Saved Games">
       <UniqueIdentifier>{8db03230-f802-4b36-ad7e-7d3cbb4b046b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Test Files">
-      <UniqueIdentifier>{13ea50e4-7545-4178-8694-cf3dbc973343}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chess.cpp">
@@ -62,9 +59,6 @@
     </ClCompile>
     <ClCompile Include="move.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="testPiece.cpp">
-      <Filter>Test Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

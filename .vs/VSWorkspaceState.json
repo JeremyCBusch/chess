@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TestFiles"
   ],
-  "SelectedNode": "\\piece.h",
+  "SelectedNode": "\\TestFiles\\board.h",
   "PreviewInSolutionExplorer": false
 }
