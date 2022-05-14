@@ -2,14 +2,15 @@
 
 char Space::getLetter()
 {
-	return 0;
+	return '_';
 }
 
 void Space::display(ogstream gout)
 {
 }
 
-Move Space::getMoves(Board board)
+set <int> Space::getMoves(Board board)
 {
-	return Move();
+	set <int> possible;
+	return possible;
 }

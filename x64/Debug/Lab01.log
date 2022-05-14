@@ -1,111 +1,254 @@
 ﻿  bishop.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.cpp(8,2): error C2143: syntax error: missing ';' before 'else'
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.cpp(10,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.cpp(17,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.cpp(17,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.h(13): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\bishop.cpp(17,19): error C2065: 'possible': undeclared identifier
   board.cpp
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1,8): error C2146: syntax error: missing ';' before identifier 'piece'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,1): error C2086: 'int import': redefinition
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(1): message : see declaration of 'import'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(2,8): error C2146: syntax error: missing ';' before identifier 'Position'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,8): error C3646: 'board': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,13): error C2143: syntax error: missing ',' before '['
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(9,17): error C2238: unexpected token(s) preceding ';'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(11,11): error C3646: 'ogstream': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(11,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(14,13): error C2061: syntax error: identifier 'gout'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(14,25): error C2533: 'Board': constructors not allowed a return type
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(17,15): error C2061: syntax error: identifier 'posHover'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,8): error C3646: 'get': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,11): error C2059: syntax error: '('
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(18,25): error C2238: unexpected token(s) preceding ';'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(21,12): error C2061: syntax error: identifier 'Move'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(22,14): error C2061: syntax error: identifier 'Piece'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\board.h(23,12): error C2061: syntax error: identifier 'Position'
-  chess.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(31,13): error C2280: 'ogstream &ogstream::operator =(const ogstream &)': attempting to reference a deleted function
+C:\Spring2022\Inheritance Design\week-4\chess\uiDraw.h(71): message : compiler has generated 'ogstream::operator =' here
+C:\Spring2022\Inheritance Design\week-4\chess\uiDraw.h(71,1): message : 'ogstream &ogstream::operator =(const ogstream &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>> &std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sstream(733,26): message : 'std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>> &std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>> &)': function was explicitly deleted
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(50,14): error C2259: 'Piece': cannot instantiate abstract class
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(6): message : see declaration of 'Piece'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(50,14): message : due to following members:
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(50,14): message : 'char Piece::getLetter(void)': is abstract
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(23): message : see declaration of 'Piece::getLetter'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(50,14): message : 'void Piece::display(ogstream)': is abstract
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(24): message : see declaration of 'Piece::display'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(52,32): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(52,32): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(52,32): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(67,2): error C2143: syntax error: missing ';' before 'for'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(69,36): error C2661: 'Pawn::Pawn': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(70,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(70,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(70,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(71,2): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(75,41): error C2661: 'Pawn::Pawn': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(76,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(76,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(76,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(77,2): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(85,39): error C2661: 'Space::Space': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(86,21): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(86,21): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(86,21): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(91,38): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(92,39): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(93,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(93,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(93,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(94,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(94,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(94,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(95,44): error C2661: 'Knight::Knight': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(96,45): error C2661: 'Knight::Knight': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(97,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(97,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(97,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(98,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(98,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(98,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(99,44): error C2661: 'Bishop::Bishop': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(100,45): error C2661: 'Bishop::Bishop': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(101,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(101,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(101,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(102,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(102,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(102,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(104,37): error C2661: 'Queen::Queen': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(105,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(105,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(105,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(107,34): error C2661: 'King::King': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(108,10): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(108,10): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(108,10): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(113,3): error C2146: syntax error: missing ';' before identifier 'Rook'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(113,8): error C2374: 'rookLeft': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(91): message : see declaration of 'rookLeft'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(113,40): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(114,7): error C2374: 'rookRight': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(92): message : see declaration of 'rookRight'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(114,40): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(115,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(115,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(115,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(116,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(116,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(116,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(117,9): error C2374: 'knightLeft': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(95): message : see declaration of 'knightLeft'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(117,45): error C2661: 'Knight::Knight': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(118,9): error C2374: 'knightRight': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(96): message : see declaration of 'knightRight'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(118,46): error C2661: 'Knight::Knight': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(119,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(119,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(119,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(120,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(120,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(120,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(121,9): error C2374: 'bishopLeft': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(99): message : see declaration of 'bishopLeft'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(121,45): error C2661: 'Bishop::Bishop': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(122,9): error C2374: 'bishopRight': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(100): message : see declaration of 'bishopRight'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(122,46): error C2661: 'Bishop::Bishop': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(123,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(123,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(123,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(124,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(124,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(124,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(126,8): error C2374: 'queen': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(104): message : see declaration of 'queen'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(126,38): error C2661: 'Queen::Queen': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(127,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(127,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(127,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(129,7): error C2374: 'king': redefinition; multiple initialization
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(107): message : see declaration of 'king'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(129,35): error C2661: 'King::King': no overloaded function takes 3 arguments
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(130,9): error C2597: illegal reference to non-static member 'Board::board'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(130,9): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(130,9): error C2109: subscript requires array or pointer type
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(131,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(139,13): error C2259: 'Piece': cannot instantiate abstract class
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(6): message : see declaration of 'Piece'
+C:\Spring2022\Inheritance Design\week-4\chess\board.cpp(140,1): fatal error C1003: error count exceeds 100; stopping compilation
   king.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\king.cpp(7,2): error C2143: syntax error: missing ';' before 'else'
+C:\Spring2022\Inheritance Design\week-4\chess\king.cpp(9,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\king.cpp(17,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\king.cpp(17,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\king.h(13): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\king.cpp(17,19): error C2065: 'possible': undeclared identifier
   knight.cpp
-  move.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\knight.cpp(7,2): error C2143: syntax error: missing ';' before 'else'
+C:\Spring2022\Inheritance Design\week-4\chess\knight.cpp(9,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\knight.cpp(17,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\knight.cpp(17,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\knight.h(13): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\knight.cpp(17,19): error C2065: 'possible': undeclared identifier
   pawn.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.h(18,23): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(18,12): error C2065: 'pos': undeclared identifier
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(19,12): error C2065: 'pos': undeclared identifier
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(22,19): error C3861: 'getPosition': identifier not found
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(23,4): error C2144: syntax error: 'int' should be preceded by ';'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(25,2): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(32,8): error C3861: 'isWhite': identifier not found
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(48,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(54,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(60,7): error C2146: syntax error: missing ';' before identifier 'r'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(61,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(66,7): error C2146: syntax error: missing ';' before identifier 'r'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(67,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(72,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(72,17): error C2065: 'location': undeclared identifier
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(72,32): error C2059: syntax error: '>'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(86,17): error C2143: syntax error: missing ')' before 'constant'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(86,63): error C2059: syntax error: ')'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(87,10): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(91,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(97,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(103,7): error C2146: syntax error: missing ';' before identifier 'r'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(104,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(109,7): error C2146: syntax error: missing ';' before identifier 'r'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(110,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(115,7): error C2143: syntax error: missing ';' before 'if'
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(115,17): error C2065: 'location': undeclared identifier
+C:\Spring2022\Inheritance Design\week-4\chess\pawn.cpp(115,44): error C2065: 'location': undeclared identifier
   piece.cpp
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,11): error C3646: 'position': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(11,8): error C2061: syntax error: identifier 'c'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12,14): error C2061: syntax error: identifier 'Position'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,14): error C2061: syntax error: identifier 'piece'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,27): error C2535: 'void Piece::assign(void)': member function already defined or declared
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12): message : see declaration of 'Piece::assign'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,11): error C3646: 'getPosition': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,22): error C2059: syntax error: '('
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,24): error C2238: unexpected token(s) preceding ';'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(19,23): error C2061: syntax error: identifier 'gout'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(20,24): error C2061: syntax error: identifier 'board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.cpp(38,30): error C2065: 'Board': undeclared identifier
+C:\Spring2022\Inheritance Design\week-4\chess\piece.cpp(38,36): error C2146: syntax error: missing ')' before identifier 'board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.cpp(39,1): error C2143: syntax error: missing ';' before '{'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.cpp(39,1): error C2447: '{': missing function header (old-style formal list?)
   position.cpp
   queen.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\queen.cpp(7,2): error C2143: syntax error: missing ';' before 'else'
+C:\Spring2022\Inheritance Design\week-4\chess\queen.cpp(9,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\queen.cpp(17,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\queen.cpp(17,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\queen.h(13): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\queen.cpp(17,19): error C2065: 'possible': undeclared identifier
   rook.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\rook.cpp(7,2): error C2143: syntax error: missing ';' before 'else'
+C:\Spring2022\Inheritance Design\week-4\chess\rook.cpp(9,1): error C2143: syntax error: missing ';' before '}'
+C:\Spring2022\Inheritance Design\week-4\chess\rook.cpp(17,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\rook.cpp(17,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\rook.h(13): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\rook.cpp(17,19): error C2065: 'possible': undeclared identifier
   space.cpp
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(22,24): error C2061: syntax error: identifier 'Board'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2143: syntax error: missing ';' before '<'
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C2433: 'Piece::set': 'virtual' not permitted on data declarations
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Spring2022\Inheritance Design\week-4\chess\piece.h(25,45): error C2238: unexpected token(s) preceding ';'
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(13,17): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\board.h(19,19): error C2092: 'board' array element type cannot be function or abstract class type
+C:\Spring2022\Inheritance Design\week-4\chess\space.cpp(14,19): error C2146: syntax error: missing ';' before identifier 'possible'
+C:\Spring2022\Inheritance Design\week-4\chess\space.cpp(14,9): error C2275: 'std::set<int,std::less<int>,std::allocator<int>>': illegal use of this type as an expression
+C:\Spring2022\Inheritance Design\week-4\chess\space.h(12): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+C:\Spring2022\Inheritance Design\week-4\chess\space.cpp(14,19): error C2065: 'possible': undeclared identifier
   testPiece.cpp
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,11): error C3646: 'position': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(5,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(11,8): error C2061: syntax error: identifier 'c'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12,14): error C2061: syntax error: identifier 'Position'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,14): error C2061: syntax error: identifier 'piece'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(13,27): error C2535: 'void Piece::assign(void)': member function already defined or declared
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(12): message : see declaration of 'Piece::assign'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,11): error C3646: 'getPosition': unknown override specifier
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,22): error C2059: syntax error: '('
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(16,24): error C2238: unexpected token(s) preceding ';'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(19,23): error C2061: syntax error: identifier 'gout'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\piece.h(20,24): error C2061: syntax error: identifier 'board'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(16,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(18,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(20,15): error C2039: 'getPosition': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(20,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(25,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(27,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(29,15): error C2039: 'getPosition': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(29,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(34,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(36,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(38,15): error C2039: 'getPosition': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(38,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(45,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(47,1): error C2661: 'Queen::Queen': no overloaded function takes 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(48,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(50,15): error C2039: 'getLetter': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(50,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(55,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(57,16): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(58,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(60,15): error C2039: 'getLetter': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(60,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(65,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(66,1): error C2661: 'Rook::Rook': no overloaded function takes 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(68,8): error C2039: 'assign': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(70,15): error C2039: 'getLetter': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(70,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(75,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(77,23): error C2039: 'isWhite': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(79,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(84,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(86,23): error C2039: 'isWhite': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(88,3): error C3861: 'assert': identifier not found
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(94,15): error C2064: term does not evaluate to a function taking 3 arguments
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(96,23): error C2039: 'isWhite': is not a member of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\pawn.h(2): message : see declaration of 'Pawn'
-C:\Spring2022\Inheritance Design\week-3\231.01.Ponder.GLDemo\testPiece.cpp(98,3): error C3861: 'assert': identifier not found
+c1xx : fatal error C1083: Cannot open source file: 'testPiece.cpp': No such file or directory
   uiDraw.cpp
   uiInteract.cpp
   Generating Code...

@@ -2,14 +2,18 @@
 
 char Knight::getLetter()
 {
-	return 0;
+	if (isWhite())
+		return 'n'; // lowercase
+	else
+		return 'N'; //upppercase
 }
 
 void Knight::display(ogstream gout)
 {
 }
 
-Move Knight::getMoves(Board board)
+set <int> Knight::getMoves(Board board)
 {
-	return Move();
+	set <int> possible;
+	return possible;
 }

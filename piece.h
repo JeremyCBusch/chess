@@ -1,6 +1,6 @@
 #include "position.h"
-
 #include "uiDraw.h"
+#include <set>    
 
 #pragma once
 class Piece
@@ -22,7 +22,7 @@ public:
 	bool checkIfJustMoved(Board board);
 	virtual char getLetter() = 0;
 	virtual void display(ogstream gout) = 0;
-	virtual void getMoves(Board board) = 0;
+	virtual set <int> getMoves(Board board) = 0;
 
 	
 };

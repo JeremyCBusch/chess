@@ -2,14 +2,18 @@
 
 char Queen::getLetter()
 {
-	return 0;
+	if (isWhite())
+		return 'q'; // lowercase
+	else
+		return 'Q'; //upppercase
 }
 
 void Queen::display(ogstream gout)
 {
 }
 
-Move Queen::getMoves(Board board)
+set <int> Queen::getMoves(Board board)
 {
-	return Move();
+	set <int> possible;
+	return possible;
 }

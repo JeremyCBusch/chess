@@ -1,14 +1,19 @@
 #include "bishop.h"
 
+
 char Bishop::getLetter()
 {
-	return 0;
+	if (isWhite())
+		return 'b'; // lowercase
+	else
+		return 'B'; //upppercase
 }
 
 void Bishop::display(ogstream gout)
 {
 }
-
-Move Bishop::getMoves(Board board)
+set <int> Bishop::getMoves(Board board)
 {
+	set <int> possible;
+	return possible;
 }

@@ -2,14 +2,18 @@
 
 char Rook::getLetter()
 {
-	return 0;
+	if (isWhite())
+		return 'r'; // lowercase
+	else
+		return 'R'; //upppercase
 }
 
 void Rook::display(ogstream gout)
 {
 }
 
-Move Rook::getMoves(Board board)
+set <int> Rook::getMoves(Board board)
 {
-	return Move();
+	set <int> possible;
+	return possible;
 }

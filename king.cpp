@@ -2,14 +2,18 @@
 
 char King::getLetter()
 {
-	return 0;
+	if (isWhite())
+		return 'k'; // lowercase
+	else
+		return 'K'; //upppercase
 }
 
 void King::display(ogstream gout)
 {
 }
 
-Move King::getMoves(Board board)
+set <int> King::getMoves(Board board)
 {
-	return Move();
+	set <int> possible;
+	return possible;
 }
